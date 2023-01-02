@@ -1,6 +1,9 @@
 @import "reset";
 @import "variables";
 
-* {
-    color: $main-color;
+body {
+    font-size: $font-size;
+    line-height: $line-height;
+    background: $main-background;
+    font-family: 'Roboto', sans-serif;
 }
