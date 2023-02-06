@@ -5,5 +5,11 @@ body {
     font-size: $font-size;
     line-height: $line-height;
     background: $main-background;
+    color: $text;
     font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: $link-color;
+    text-decoration: $link-text-decoration;
 }
