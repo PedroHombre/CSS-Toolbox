@@ -8,19 +8,21 @@ import '../Generators.scss';
 
 const BoxShadowGen = () => {
     return (
-        <>
+        <div className="container">
             BoxShadow
 
-            <div className="row">
-                <GeneratorInput />
+            <div className="wrapper">
+                <div className="row">
+                    <GeneratorInput />
 
-                <GeneratorPreview />
-            </div>
+                    <GeneratorPreview />
+                </div>
 
-            <div className="row">
-                <GeneratorOutput />
+                <div className="row">
+                    <GeneratorOutput />
+                </div>
             </div>
-        </>
+        </div>
     )
 }
 

@@ -1,5 +1,30 @@
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .row {
     display: flex;
     flex-direction: row;
     gap: 15px;
+
+    .generator-input {
+        width: 30%;
+    }
+
+    .generator-preview {
+        width: 70%;
+    }
+
+    .generator-output {
+        width: 100%;
+    }
 }
+
